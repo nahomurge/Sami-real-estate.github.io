@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SAMI - Real Estate </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-deal.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
+                <a href="" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="nav-item nav-link active">Sami Realtor Inspector</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#property" class="nav-item nav-link">Property</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
+                    <p class="animated fadeIn mb-4 pb-2">our mission is to help you find the perfect home that suits your needs and lifestyle.</p>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+        <div id="property" class="row property-section">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Property Types</h1>
+                    <p>Our diverse range of property types caters to every lifestyle and preference.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                                </div>
+                                <h6>Apartment</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                </div>
+                                <h6>Villa</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                </div>
+                                <h6>Building</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-neighborhood.png" alt="Icon">
+                                </div>
+                                <h6>Townhouse</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+        <!-- Property List Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3">Property Listing</h1>
+                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                            <li class="nav-item me-2">
+                                <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">All</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">For Sell</a>
+                            </li>
+                            <li class="nav-item me-0">
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Sold</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/1871 S Buchanan Cir, Aurora, CO 80018.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Townhouse</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$440,000</h5>
+                                        <a class="d-block h5 mb-2" href="">For sale</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>1871 S Buchanan Cir, Aurora, CO 80018</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1,673sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1,742sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/6330 N Gibralter Ct, Aurora, CO 80019.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Sold</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Single Family</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$570,000</h5>
+                                        <a class="d-block h5 mb-2" href="">Sold - Jan 28, 2026</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>6330 N Gibralter Ct, Aurora, CO 80019</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,567sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>6,105sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>4 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/22746 E 47th Pl, Aurora, CO 80019.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Sold</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Single Family</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$570,000</h5>
+                                        <a class="d-block h5 mb-2" href="">Sold - Jan 27, 2026</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>22746 E 47th Pl, Aurora, CO 80019</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>2,838sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,893sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/4444 N Picadilly Ct, Aurora, CO 80019.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Sold</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Single Family</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$539,000</h5>
+                                        <a class="d-block h5 mb-2" href="">Sold - Dec 26, 2025</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>4444 N Picadilly Ct, Aurora, CO 80019</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>2,868sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>5,500sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/9345 Cathay Ct, Commerce City, CO 80022.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Sold</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Single Family</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$570,000</h5>
+                                        <a class="d-block h5 mb-2" href="">Sold - Nov 24, 2025</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>9345 Cathay Ct, Commerce City, CO 80022</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,742sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>7,285sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/2184 S Gold Bug Ct, Aurora, CO 80018.webp" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Off Market</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Single Family</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3"></h5>
+                                        <a class="d-block h5 mb-2" href="">Off Market</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>2184 S Gold Bug Ct, Aurora, CO 80018</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,694sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>5,999sqft lot</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>3.5 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Property List End -->
+
+        <!-- Testimonial Start -->
+         <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 224, 160, 0.5);">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div id="about" class="row about-section"></div>
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Our Clients Say!</h1>
+                    <p>our clients are happy with our services</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Riham (Buyer)</h6>
+                                    <small>riham.hassan4@hotmail.com</small>
+                                </div>
+                            </div>
+                            <p>I highly recommend Sami My name is Riham, and I am originally from Sudan. I was referred to Sami by friends, and working with him was one of the best decisions I made. Owning a home once felt out of reach, but Sami made it a reality. He went above and beyond at every step, explained everything clearly, and truly cared about helping me succeed. If you are thinking about buying a home, I highly recommend Sami-he will do everything possible to make it happen.Help</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Million Tesfay (Buyer)</h6>
+                                    <small>millontesfaye29@gmail.com</small>
+                                </div>
+                            </div>
+                            <p>Buying a home can be super stressful but sami made it such a smooth and easy process experience from start to finish sami were friendly, approachable sami took the time to understand we were after and never made us feel rushed or pressured. We felt like we were in safe hund the whole way through. sami kept us in the loop, gave great advice, and genuinely cared about finding the right place for us. we're so happy with our new home can't thank sami enough!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-4.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Mihret Habtamu (Buyer)</h6>
+                                    <small>mihret.rhabtamu@gmail.com</small>
+                                </div>
+                            </div>
+                            <p>As a first-time homebuyer, I was overwhelmed, anxious, and honestly didn't know where to start. But from the very beginning, Sami was an absolute blessing. He not only guided me through the entire process with clarity and professionalism, but he also brought a constant wave of encouragement and positivity that I didn't even know I needed. There were moments when things felt uncertain-when it seemed like everything might fall through-but Sami never let me lose hope. He always found a way forward. He was proactive, resourceful, and truly went out of his way to explore every option, make connections, and keep things moving smoothly. I couldn't have asked for a better experience!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Awetash leul (Buyer)</h6>
+                                    <small>AKSumaite@gmail.com</small>
+                                </div>
+                            </div>
+                            <p>Sami is the best agent in Colorado, he is amazing, and very helpful, he treated me like a family and he was very kinds. He go above and beyond to satisfy his customer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Call to Action Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div id="contact" class="row contact-section"></div>
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 224, 160, 0.5);">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <img class="img-fluid rounded w-100" src="img/Samson.jpeg" alt="">
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                    <h1 class="mb-3">Contact With Us</h1>
+                                    <p>If you want to buy or sell a property, contact Sami today for personalized assistance and expert guidance.</p>
+                                </div>
+                                <a href="tel:+1 720 789 0694" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                               <a href="#" class="btn btn-primary py-3 px-4"
+   data-bs-toggle="modal"
+   data-bs-target="#appointmentModal">
+   Get Appointment
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
+
+<!-- Appointment Modal -->
+<div class="modal fade" id="appointmentModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content border-0 shadow rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title fw-bold text-primary">
+          Book an Appointment
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body p-4">
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Service Type</label>
+            <select class="form-select">
+              <option selected disabled>Choose from list</option>
+              <option>Buying Property</option>
+              <option>Selling Property</option>
+              <option>Renting Property</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your full name">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Phone</label>
+            <input type="tel" class="form-control" placeholder="Enter phone number">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Message</label>
+            <textarea class="form-control" rows="3"
+              placeholder="Write your message"></textarea>
+          </div>
+
+          <button type="submit"
+            class="btn btn-primary w-100 py-2 rounded-3">
+            Send Appointment Request
+          </button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: rgba(0, 224, 160, 0.3);">
+            <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                <h5 class="text-dark mb-4">Get In Touch</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>DENVER, CO</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+(720) 789-0694</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>aredo252@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-dark btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-dark btn-social" href="https://www.instagram.com/sami_realtor_inspector"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-dark btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-dark btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                <h5 class="text-dark mb-4">Quick Links</h5>
+                <a class="btn btn-link text-dark" href="">About Us</a>
+                <a class="btn btn-link text-dark" href="">Contact Us</a>
+                <a class="btn btn-link text-dark" href="">Our Services</a>
+                <a class="btn btn-link text-dark" href="">Privacy Policy</a>
+                <a class="btn btn-link text-dark" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                <h5 class="text-dark mb-4">Photo Gallery</h5>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/1871 S Buchanan Cir, Aurora, CO 80018.webp" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/2184 S Gold Bug Ct, Aurora, CO 80018.webp" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/4444 N Picadilly Ct, Aurora, CO 80019.webp" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/6330 N Gibralter Ct, Aurora, CO 80019.webp" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/2184 S Gold Bug Ct, Aurora, CO 80018.webp" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/22746 E 47th Pl, Aurora, CO 80019.webp" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+            <div class="copyright">
+                <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                <p>
+                                    &copy;copyright. designed & developed by <a href="https://www.instagram.com/nahomurge/">😎</a>
+                                </p>
+                </div>
+                </div>
+               </div>
+              </div>
+             </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
